@@ -1,0 +1,716 @@
+            /*-----------------------------------
+            Basic Setup
+            ------------------------------------*/
+
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+                font-family: "adelle", Times, serif;
+                font-weight: 100;
+            }
+
+            /*-----------------------------------
+            Clearfix
+            ------------------------------------*/
+
+            .clearfix:after, section:after, header:after, footer:after {
+                visibility: hidden;
+                display: block;
+                font-size: 0;
+                content: " ";
+                clear: both;
+                height: 0;
+            }
+          
+            /*-----------------------------------
+            Hero Space
+            ------------------------------------*/
+            
+            /* Nav */
+            
+            nav
+            {
+                height:50px;
+            }
+
+            .main-nav {
+                margin-top: 30px;
+                float: right;
+                list-style: none;
+                display: inline-block
+            }
+
+            .main-nav li {
+                display: inline-block;
+                margin-left: 40px;
+
+            }
+
+            .main-nav li a:link, .main-nav li a:visited {
+                color: #fff;
+                text-decoration: none;
+                font-size: 120%;
+                border-bottom: 2px solid transparent;
+                -webkit-transition: border-bottom 0.2s;
+                -moz-transition: border-bottom 0.2s;
+                -o-transition: border-bottom 0.2s;
+                transition: border-bottom 0.2s;
+            }
+
+            .main-nav li a:hover, .main-nav li a:active {
+                border-bottom: 3px solid #3a3a3a;
+                padding-bottom: 3px;
+            }
+            
+            /* Mobile Nav */
+
+            .mobile-nav-icon {
+                float: right;
+                cursor: pointer;
+                display: none;
+                padding-top: 20px;
+    
+            }
+
+            .mobile-nav-icon i {
+                font-size: 200%;
+                color: #fff;
+            }
+            
+            .logo {
+                height: 50px;
+                width: 50px;
+                float:left;
+                margin-top: 15px;
+            }
+            
+            /* Hero */
+
+            #hero {
+                padding: 0 17%;
+                background-image:url('../assets/img/bg_hero.jpg');
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-attachment:fixed;
+                padding-bottom: 40px;
+            }
+            
+            #header {
+                padding-top: 150px;
+                padding-bottom: 25px;
+            }
+            
+            /* Hero Text */
+
+            .hero-text {
+                width: 45%;
+                float: left;
+            }
+
+            .hero-text h1 {
+                color:#fff;
+                font-size: 300%;
+                word-spacing: 4px;
+                display:block; 
+            }
+
+            .hero-text h1 span {font-weight: 900;}
+
+            .hero-text p {
+                color:#fff;
+                font-size: 120%;
+                display:block;
+                line-height: 175%;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+             /* button */
+
+            .btn {
+                display: inline-block;
+                text-decoration: none;
+                padding: 15px 10%;
+                font-size: 110%;
+                -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                transition: background-color 0.2s, border 0.2s, color 0.2s;
+                margin-top: 30px;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+
+            .btn:link, .btn:visited {
+                border: 1px solid #fff;
+                color: #fff;
+            }
+
+            .btn:hover, .btn:active {
+                border: 1px solid #fff;
+                color: #fff;
+                background-color: #57799e;
+            }  
+            
+            /* Tablet and Phone */
+            
+            .tablet-phone {
+               width: 50%;
+               float: right;
+            }
+
+            /*-----------------------------------
+            What We Do
+            ------------------------------------*/
+            
+            .what-we-do {margin-top: 45px;}
+            
+            .what-we-do h1 {
+                color:#89b8ea;
+                font-size: 300%;
+                word-spacing: 4px;
+                display:block;
+                text-align: center;
+            }
+
+            .what-we-do h1 span {font-weight: 900;}
+            
+            
+            .what-we-do p {
+                color:#9b9b9b;
+                font-size: 120%;
+                display:block;
+                line-height: 150%;
+                width: 60%;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 45px;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            /* Icons */
+            
+            .icons {
+                width: 100%;
+                margin: 0 auto;
+                max-width: 1080px;
+            }
+            
+            .icons img {
+                display: inline-block;
+                margin-left: 10%;
+                margin-bottom: 45px;
+            }
+            
+            
+            /*-----------------------------------
+            Call for Superheroes
+            ------------------------------------*/
+            
+            .call-for-superheroes {
+                background-image: url('../assets/img/bg_careers.jpg');
+                -moz-background-size:cover;
+                -o-background-size:cover;
+                background-size:cover;
+                width: 100%;
+                padding: 20px 0;
+            }
+            
+            .call-for-superheroes h1 {
+                color:#fff;
+                font-size: 300%;
+                text-align: center;
+                margin-top: 70px;
+            }
+            
+            .call-for-superheroes span {font-weight: 900;}
+            
+            
+            .call-for-superheroes a {margin-bottom: 50px;}
+            
+            /* Button Call for Superheroes */
+  
+            .btn-openings {
+                display: block;
+                margin: 0 auto;
+                width: 14%;
+                text-decoration: none;
+                text-align: center;
+                padding: 15px 3%;
+                font-size: 110%;
+                -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+                transition: background-color 0.2s, border 0.2s, color 0.2s;
+                margin-top: 30px;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+
+            .btn-openings:link, .btn-openings:visited {
+                border: 1px solid #fff;
+                color: #fff;
+            }
+
+            .btn-openings:hover, .btn-openings:active {
+                border: 1px solid #fff;
+                color: #fff;
+                background-color: #333;
+            }
+            
+            
+            /*-----------------------------------
+            Video
+            ------------------------------------*/
+            
+            .video {
+                background-color: #e9e9e9;
+                 padding: 80px 2%;
+            }
+            
+            .video-new-york {
+                width: 90%;
+                margin: 0 auto;
+                max-width: 1080px;
+                display: block;    
+            }
+            
+            /*-----------------------------------
+            Map
+            ------------------------------------*/
+            
+            .map-box {
+                width: 100%;
+                position: relative;
+            }
+            
+            .map {
+                width: 100%;
+                height: 500px;
+                position: relative;
+                z-index: 0;
+            }
+            
+            /* Get In Touch */
+            
+            .get-in-touch {
+                position: absolute;
+                top: 80px;
+                left: 12%;
+                z-index: 10;
+                width: 18%;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 30px 2%;
+            }
+            
+             .get-in-touch h1 {
+                 color:#fff;
+                 font-size: 200%;
+            }
+            
+            .get-in-touch span {
+                font-weight: 900;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            .get-in-touch h2 { 
+                 color:#fff;
+                font-size: 120%;
+                 margin-top: 10px;
+                 font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            .get-in-touch h2 span {font-weight: 600;}
+            
+            .get-in-touch p {
+                 color:#dddddd;
+                 font-size: 105%;
+                 font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            .get-in-touch img {
+                margin-left: 5%;
+                margin-top: 10px;
+                width: 95%;
+            }
+            
+            /*-----------------------------------
+            Contact Us
+            ------------------------------------*/
+
+            .contact-us h1 {
+                color:#89b8ea;
+                font-size: 300%;
+                word-spacing: 2px;
+                display:block;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            .contact-us h1 span {font-weight: 900;}
+            
+             .contact-us p {
+                color:#9b9b9b;
+                font-size: 120%;
+                display:block;
+                line-height: 150%;
+                width: 60%;
+                text-align: center;
+                margin: 0 auto;
+                 margin-top: 10px;
+                margin-bottom: 20px;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            /* Contact Form */
+            
+            .contact-form {
+                width: 65%;
+                margin: 0 auto;
+                padding-bottom: 40px;
+            }
+            
+            .input-name {
+                width: 44%;
+                padding: 10px 2%;
+                border: 2px solid #89b8ea;
+                color:#555;
+                font-size: 120%;
+                display: block;
+                float: left;
+            }
+            
+            .input-email {
+                width: 44%;
+                padding: 10px 2%;
+                border: 2px solid #9b9b9b;
+                color:#555;
+                font-size: 120%;
+                display: block;
+                float: right;
+            }
+            
+            .input-superpower {
+                width: 96%;
+                padding: 10px 2%;
+                border: 2px solid #9b9b9b;
+                color:#555;
+                font-size: 120%;
+                display: block;
+                float: left;
+                margin-top: 30px;    
+            }
+            
+            .input-mission {
+                width: 96%;
+                padding: 10px 2%;
+                border: 2px solid #9b9b9b;
+                color:#555;
+                font-size: 120%;
+                display: block;
+                float: left;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            
+            .submit {
+              border: 1px solid #333;
+              background:none;
+              color:#9b9b9b;
+              display: block;
+              margin: 0 auto;
+                
+            }
+            
+             /*-----------------------------------
+             Footer
+             ------------------------------------*/
+            
+            .footer {
+                background-color: #89b8ea;
+                padding: 15px 40px;
+            }
+            
+            .footer p {
+                text-align: center;
+                color: #fff;
+                font-size: 120%;
+            }
+            
+            .footer p span {font-weight: 900;}
+            
+            /*-----------------------------------
+            Global Media Queries
+            ------------------------------------*/
+            
+            /*****************************/
+            /* --- Max Screen 1000px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 1000px) {
+                
+                .main-nav {
+                    display: none;
+                    float:left;
+                }
+                
+                .main-nav li a:link, .main-nav li a:visited {
+                    float: left;
+                    font-size: 15px;
+                    margin-left: 20px;
+                }
+                
+                .main-nav li {
+                    margin-right: 10px;
+                    display: block;
+                }
+                
+                .mobile-nav-icon {
+                    display: inline-block;
+                    float: right;
+                }
+                
+                #hero {
+                    padding:0 5%;
+                }
+                
+                .hero-text h1 {
+                    font-size: 50px;
+                }
+                .hero-text p {
+                    font-size: 20px;
+                }
+
+                .tablet-phone img{
+                    width: 100%;                  
+                }
+
+                .icons img {
+                    margin-left: 9%;
+                }
+
+                .btn-openings {
+                    width: 20%;
+                }
+
+                .video-new-york {
+                    width: 85%; 
+                }
+
+                .get-in-touch {
+                    width: 25%;
+                }
+                
+                .contact-form {
+                    width: 90%;
+                }
+     
+            }
+  
+             /* end 1000px wide */
+            
+            /*****************************/
+            /* --- Max Screen 775px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 775px) {
+                
+                
+                
+                #hero {
+                    padding:0 5%;
+                }
+                
+                .hero-text h1 {
+                    font-size: 40px;
+                }
+                
+                .hero-text p {
+                    font-size: 20px;
+                }
+                
+                .tablet-phone img {
+                    width: 100%;
+                }
+                
+                .icons img {
+                    margin-left: 8%;
+                }
+                
+                .btn-openings {
+                    width: 20%;
+                }
+                
+                .get-in-touch {
+                    width: 30%;
+                }
+                
+                .video-new-york {
+                    width: 80%; 
+                }
+
+                .input-name {
+                    font-size: 15px;
+                }
+
+                .input-email {
+                    font-size: 15px;
+                }
+
+                .input-superpower {
+                    font-size: 15px;    
+                }
+
+                .input-mission {
+                    font-size: 15px;
+                }
+                
+            }
+            
+            /* end 775px wide */
+            
+            /*****************************/
+            /* --- Max Screen 750px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 750px) {
+ 
+                .hero-text h1 {
+                    font-size: 35px;
+                }
+                
+                
+                .icons img {
+                    margin-left: 6%;
+                }
+                
+                .btn-openings {
+                    width: 30%;
+                }
+                
+                .get-in-touch {
+                    width: 35%;
+                }
+                
+                .input-name {
+                    font-size: 12px;
+                }
+
+                .input-email {
+                    font-size: 12px;
+                }
+
+                .input-superpower {
+                    font-size: 12px;    
+                }
+
+                .input-mission {
+                    font-size: 12px;
+                }
+
+            }
+            
+            /* end 750px wide */
+            
+            /*****************************/
+            /* --- Max Screen 580px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 580px) {
+                
+                .hero-text h1 {
+                    font-size: 30px;
+                }
+                
+                .hero-text p {
+                    font-size: 20px;
+                }
+                
+                .icons img {
+                    margin-left: 4%;
+                }
+                
+                .get-in-touch {
+                    width: 40%;
+                }
+                
+                .input-name {
+                    font-size: 10px;
+                }
+
+                .input-email {
+                    font-size: 10px;
+                }
+
+                .input-superpower {
+                    font-size: 10px;    
+                }
+
+                .input-mission {
+                    font-size: 10px;
+                }
+            }
+            
+            /* end 580px wide */
+            
+            /*****************************/
+            /* --- Max Screen 500px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 500px) {
+                
+                .hero-text h1 {
+                    font-size: 25px;
+                }
+                
+                .icons img {
+                    margin-left: 2%;
+                }
+                
+                .btn-openings {
+                    width: 35%;
+                }
+                
+                .get-in-touch {
+                    width: 50%;
+                }
+                
+            }
+            
+            /* end 580px wide */
+            
+            /*****************************/
+            /* --- Max Screen 450px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 450px) {
+                
+                .btn {
+                    padding: 15px 1%;
+                }
+                
+                .btn-openings {
+                    width: 40%;
+                }
+                
+                .get-in-touch {
+                    width: 60%;
+                }
+            }
+            
+            /* end 450px wide */
+            
+            /*****************************/
+            /* --- Max Screen 400px wide --- */
+            /*--------------------------------*/
+            
+            @media only screen and (max-width: 400px) {
+                
+                .get-in-touch {
+                    width: 70%;
+                }
+            }
+            
+            /* end 400px wide */
